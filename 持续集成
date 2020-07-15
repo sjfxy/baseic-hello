@@ -1,0 +1,24 @@
+使用
+docker 和 dockerHub 基于 云 ci 和不可变的部件的强大的工具
+Wercker 一种适合独立开发者 初创公司甚至完整企业的CI工具
+
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -q)
+
+brew tap wercker/wercker
+
+wercker 开发文档
+
+brew tap wercker/wercker
+brew install wercker-cli
+
+
+
+https://devcenter.wercker.com/development/cli/installation/
+
+brew install wercker-cli
+
+wercker version
+
+
+
