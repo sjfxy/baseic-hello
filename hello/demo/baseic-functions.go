@@ -28,4 +28,18 @@ func main() {
 
 	fmt.Printf("Name params returned: '%s', %v\n", named, err)
 
+	var p = person{}
+
+	var p2 = person{"bob", 21}
+
+	var p3 = person{name: "bob", age: 22}
+
+	var p4 = &person{}
+
+	var p5 = &person{"sin", 22}
+
+	var p6 = &person{name: "sin", age: 21}
+
+	fmt.Println(p, p2, p3, p4, p5, p6)
+
 }
